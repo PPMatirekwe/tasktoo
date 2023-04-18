@@ -11,7 +11,9 @@ public class ReadXML {
     public static void main(String[] args) {
         try {
             // create a new file object
-            File file = new File("data.xml");
+            
+            File file = new File("C:/Users/Hp/Desktop/xml-reader/app/src/main/java/xml/reader/data.xml");
+
             
             // create a new DocumentBuilder
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();

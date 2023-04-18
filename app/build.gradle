@@ -10,7 +10,8 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
 }
-mainClassName = 'ReadXML'
+//mainClassName = 'ReadXML'
+
 run {
     standardInput = System.in
 }
@@ -39,7 +40,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'xml.reader.App'
+    mainClass = 'xml.reader.ReadXML'
 }
 
 tasks.named('test') {
