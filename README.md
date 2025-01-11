@@ -1,1 +1,1 @@
-Final year undergraduate CS practical on lexical parsers
+Final year undergraduate Java practical on lexical parsers
